@@ -76,12 +76,12 @@ export default class InputPopover extends Component {
           />
           <ButtonGroup className={styles.buttonGroup}>
             <IconButton
-              label="Cancel"
+              label="Отменить"
               iconName="cancel"
               onClick={props.onCancel}
             />
             <IconButton
-              label="Submit"
+              label="Прикрепить"
               iconName="accept"
               onClick={this._onSubmit}
             />
