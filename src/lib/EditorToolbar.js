@@ -246,8 +246,8 @@ export default class EditorToolbar extends Component {
           defaultValue={defaultValue}
           onSubmit={this._setLink}
           checkOptions={{
-            targetBlank: {label: 'Open link in new tab', defaultValue: targetBlank},
-            noFollow: {label: 'No follow', defaultValue: noFollow},
+            targetBlank: {label: 'Открыть ссылку в новой вкладке', defaultValue: targetBlank},
+            // noFollow: {label: 'No follow', defaultValue: noFollow},
           }}
         />
         <IconButton
